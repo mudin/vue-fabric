@@ -1,15 +1,26 @@
 {
-  "name": "vuector",
-  "version": "0.1.0",
-  "private": true,
+  "name": "VueFabric",
+  "version": "0.2.0",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name VueFabric src/fabric/index.js",
     "lint": "vue-cli-service lint"
   },
+  "homepage": "https://github.com/mudin/vue-fabric",
+  "bugs": {
+    "url": "https://github.com/mudin/vue-fabric/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mudin/vue-fabric.git"
+  },
+  "private": false,
+  "main": "dist/VueFabric.umd.js",
   "dependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.6.6"
+    "fabric": "^2.7.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
@@ -18,9 +29,14 @@
     "@vue/eslint-config-airbnb": "^4.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
+    "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-vue": "^5.0.0",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "stylelint": "^9.10.1",
+    "stylelint-webpack-plugin": "^0.10.5",
     "vue-template-compiler": "^2.5.21"
   }
 }
