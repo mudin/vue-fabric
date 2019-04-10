@@ -16,27 +16,26 @@
     </p>    
 </p>
 
-# vue-fabric
+# VueFabric
 
-Forked from purestart's vue-fabric.
+Forked from purestart's ![vue-fabric](https://github.com/purestart/vue-fabric).
 
 <img src="https://gitee.com/_pure/codes/dn4u2bw65zxemfklcao9i45/raw?blob_name=fabric4.gif" >
 
 ## Installation
 
 ```
-npm install vuejs-fabric --save
+npm install VueFabric --save
 ```
 
 ## Import
 
 ```
-import 'vuejs-fabric/dist/vue-fabric.min.css';
-import Fabric from 'vue-fabric';
+import VueFabric from 'VueFabric';
 ```
 
 ```
-Vue.use(Fabric);
+Vue.use(VueFabric);
 ```
 
 usa
