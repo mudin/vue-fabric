@@ -25,7 +25,7 @@ Forked from purestart's ![vue-fabric](https://github.com/purestart/vue-fabric).
 ## Installation
 
 ```
-npm install VueFabric --save
+npm install vuejs-fabric --save
 ```
 
 ## Import
