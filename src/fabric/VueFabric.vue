@@ -393,6 +393,7 @@ export default {
     createImage(url, options) {
       const canvas = this.canvas;
       const that = this;
+      options = options || {};
       fabric.Image.fromURL(url, (img) => {
         // 添加过滤器
         // img.filters.push(new fabric.Image.filters.Grayscale());

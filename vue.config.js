@@ -1,4 +1,12 @@
-const nodeExternals = require('webpack-node-externals');
+let externals = [];
+
+if (process.env.NODE_ENV === 'production') {
+  // eslint-disable-next-line global-require
+  const nodeExternals = require('webpack-node-externals');
+  externals = [
+    nodeExternals()
+  ];
+}
 
 module.exports = {
   css: {
@@ -9,9 +17,7 @@ module.exports = {
     }
   },
   configureWebpack: {
-    externals: [
-      nodeExternals()
-    ]
+    externals
   },
 
   lintOnSave: true,
