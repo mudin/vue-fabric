@@ -9,8 +9,6 @@ import { fabric } from 'fabric';
 import '@/libs/customiseControls.js';
 import Utils from '../utils';
 
-window.global = {};
-
 const dotCircleImg = require('../assets/dot-circle.png');
 const rotateMdrImg = require('../assets/rotate-mdr.png');
 

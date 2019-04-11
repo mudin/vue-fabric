@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <router-view/>
+    <editor/>
   </div>
 </template>
 
 <script>
+import editor from './demos/editor';
+
 export default {
   name: 'app',
+  components: {
+    editor
+  },
   data() {
     return {};
   }
