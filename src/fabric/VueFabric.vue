@@ -6,7 +6,7 @@
 
 <script>
 import { fabric } from 'fabric';
-import '@/libs/customiseControls.js';
+import '../libs/customiseControls.js';
 import Utils from '../utils';
 
 const dotCircleImg = require('../assets/dot-circle.png');
