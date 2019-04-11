@@ -1,6 +1,6 @@
 {
   "name": "vuejs-fabric",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vue-fabric src/fabric/index.js",
