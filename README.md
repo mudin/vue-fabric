@@ -31,7 +31,7 @@ npm install vuejs-fabric --save
 ## Import
 
 ```
-import VueFabric from 'VueFabric';
+import VueFabric from 'vuejs-fabric';
 ```
 
 ```
