@@ -35,7 +35,7 @@ import VueFabric from 'VueFabric';
 ```
 
 ```
-Vue.use(VueFabric);
+Vue.component('VueFabric',VueFabric);
 ```
 
 usa
